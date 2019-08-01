@@ -8,6 +8,7 @@ import java.io.FileReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
+import java.io.FileWriter;
 
 
 
@@ -22,7 +23,7 @@ public class JavaApplication1 {
      */
     public static void main(String[] args) {
         NewClass lop = new NewClass();
-        lop.mail();
+        lop.importfile("importkhoa2017.csv", "khoa2017.csv");
     }
 }
 
