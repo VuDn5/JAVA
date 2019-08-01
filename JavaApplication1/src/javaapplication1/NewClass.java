@@ -52,7 +52,7 @@ public class NewClass {
                 fw.write("\n" + line);
                 
                 //String[] output = line.split(",");
-                //System.out.println(output[0]); 
+                 
              }
             fw.close();
             br.close();
